@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likhitha K's portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Main Section */
+        main {
+            padding: 60px 20px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 30px;
+            margin: 50px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-image 0.5s ease-in-out, transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Section Titles */
+        section h1 {
+            font-size: 48px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        section p, ul, table {
+            font-size: 20px;
+            color: #fff;
+            line-height: 1.6;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        section h2 {
+            font-size: 26px;
+            color: #ff9800;
+            margin-top: 0px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Section Backgrounds */
+        #home {
+            background-image: url('background1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+
+        #resume {
+            background-image: url('background1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+
+        #biodata {
+            background-image: url('background1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+
+        #contact {
+            background-image: url('background1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+
+        /* Resume Profile Picture */
+        .resume-profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid #fff;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .resume-profile-picture:hover {
+            transform: scale(1.1);
+        }
+
+        .resume-content, .biodata-content {
+            max-width: 900px;
+            margin: 20px;
+            color: #fff;
+            text-align: left;
+        }
+
+        .resume-content ul, .biodata-content table {
+            margin-top: 10px;
+        }
+
+        /* Contact Section Styling */
+        #contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #contact li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #contact a {
+            color: #ff9800;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        #contact a:hover {
+            color: #fff;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            section {
+                padding: 40px;
+            }
+
+            section h1 {
+                font-size: 30px;
+            }
+
+            .resume-profile-picture {
+                width: 0px;
+                height: 200px;
+            }
+ .contact-button {
+                width: 100%;
+                text-align: center;
+}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#biodata">Bio Data</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+           
+
+            <h1>Welcome to my Personal portfolio</h1>
+ <img src="profile-photo.jpg" alt="Profile Picture" class="resume-profile-picture">
+<h2>Likhitha K</h2>
+        </section>
+        <section id="resume">
+            <h1>Resume</h1>
+            <div class="resume-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C, C++</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Web Development</li>
+                </ul>
+                <h2>Education</h2>
+                <p>SSLC - Sandeepani Rural Educational Institutions (2020)</p>
+                <p>Pre University - Narendra PU College (2020-2022)</p>
+                <p>Bachelor of Engineering in Computer Science - Vivekananda College of Engineering and Technology (2022-2026)</p>
+                <h2>Certification</h2>
+                <ul>
+                    <li>Database and SQL</li>
+                    <li>Time Management</li>
+                </ul>
+                
+            </div>
+        </section>
+        <section id="biodata">
+            <h1>Bio Data</h1>
+            <div class="biodata-content">
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td>Likhitha K</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Birth:</th>
+                        <td>15/02/2005</td>
+                    </tr>
+                    <tr>
+                        <th>Address:</th>
+                        <td>2-22E, Kadya House, Mundoor post and village, puttur D.K - 574202</td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td>+919008336216</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td><a href="mailto:likhithakputtur@gmail.com">likhithakputtur@gmail.com</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Feel free to reach out to me:</p>
+            <ul>
+                <li><i class="fas fa-phone"></i>Phone: +917204471886</li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:likhithakputtur@gmail.com">likhithakputtur@gmail.com</a></li>
+            </ul>
+            <a href="mailto:likhithakputtur@gmail.com" class="contact-button">Send a Message</a>
+        </section>
+    </main>
+    <footer>
+
+        <p>&copy; 2024 Likhitha K</p>
+    </footer>
+</body>
+</html>
